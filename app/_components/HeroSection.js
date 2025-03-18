@@ -16,14 +16,15 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10">
-        <h1 className="text-5xl font-bold mb-4">
-          Discover the Purity of Herbs
+        <h1 className="text-5xl font-bold mb-4 leading-tight">
+          Discover the Purity of Herbs <br />
+          with Herbanya
         </h1>
         <p className="text-lg  max-w-xl mx-auto">
           Sourced from nature, crafted for well-being.
         </p>
         <button className="mt-6 px-6 py-3 rounded-2xl shadow-md text-white bg-secondary hover:bg-tertiary hover:text-white transition">
-          Explore More
+          <a href="#about">Explore More</a>
         </button>
       </div>
     </section>
