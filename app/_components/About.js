@@ -1,8 +1,8 @@
 const About = () => {
   return (
-    <section className="py-20 px-6 text-center">
+    <section className="py-20 px-6 text-center" id="about">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl font-bold text-secondary mb-6">
+        <h2 className="text-4xl font-bold text-secondary mb-6">
           About Herbanya
         </h2>
         <p className="text-lg text-tertiary">

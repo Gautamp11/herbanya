@@ -17,7 +17,6 @@ export default function Home() {
       <ProductShowcase />
       <WhyChooseUs />
       <BuySection />
-      <ContactSection />
       <Footer />
     </div>
   );

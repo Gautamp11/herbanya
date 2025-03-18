@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 @theme {
-  /* --color-primary: #d8e4db; */
   --color-secondary: #44403c;
   --color-tertiary: #37332f;
 }
@@ -13,4 +12,8 @@ button {
 button:hover {
   background-color: var(--color-tertiary);
   transition: background-color 0.3s ease;
+}
+
+html {
+  scroll-behavior: smooth;
 }
