@@ -8,19 +8,19 @@ const BuySection = () => {
       <div className="flex justify-center gap-6">
         <a
           href="#"
-          className="px-6 py-3 bg-secondary text-white rounded-2xl shadow-md hover:bg-tertiary transition"
+          className="px-4 sm:px-6 py-3 bg-secondary text-white rounded-2xl shadow-md hover:bg-tertiary transition"
         >
           Amazon
         </a>
         <a
           href="#"
-          className="px-6 py-3 bg-secondary text-white rounded-2xl shadow-md hover:bg-tertiary transition"
+          className="px-4 sm:px-6 py-3 bg-secondary text-white rounded-2xl shadow-md hover:bg-tertiary transition"
         >
           Flipkart
         </a>
         <a
           href="#"
-          className="px-6 py-3 bg-secondary text-white rounded-2xl shadow-md hover:bg-tertiary transition"
+          className="px-4 sm:px-6 py-3 bg-secondary text-white rounded-2xl shadow-md hover:bg-tertiary transition"
         >
           BigBasket
         </a>

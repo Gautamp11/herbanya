@@ -13,10 +13,10 @@ export default function Home() {
     <div>
       <Navbar />
       <HeroSection />
-      <About />
       <ProductShowcase />
       <WhyChooseUs />
       <BuySection />
+      <About />
       <Footer />
     </div>
   );

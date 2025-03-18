@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full h-screen flex flex-col items-center justify-center  text-secondary text-center px-6">
+    <section className="relative w-full py-50 sm:h-screen flex flex-col items-center justify-center  text-secondary text-center px-6">
       {/* Background Image */}
       <div className="absolute inset-0 z-1">
         <Image
@@ -16,7 +16,7 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10">
-        <h1 className="text-5xl font-bold mb-4 leading-tight">
+        <h1 className="text-4xl sm:text-5xl font-bold mb-4 leading-tight">
           Discover the Purity of Herbs <br />
           with Herbanya
         </h1>
