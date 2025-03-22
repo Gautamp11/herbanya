@@ -1,6 +1,16 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
+import { EB_Garamond } from "next/font/google";
+import { Josefin_Sans } from "next/font/google";
 
+const ebGaramond = EB_Garamond({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+const josefin = Josefin_Sans({
+  subsets: ["latin"],
+  // weight: ["400", "700"],
+});
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -35,7 +45,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-white`}>{children}</body>
+      {/* <body className={`${inter.className} bg-white`}>{children}</body> */}
+      {/* <body className={`${ebGaramond.className} bg-white`}>{children}</body> */}
+      <body className={`${josefin.className} bg-white`}>{children}</body>
     </html>
   );
 }
