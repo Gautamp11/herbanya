@@ -17,13 +17,13 @@ const Navbar = () => {
           href="#buy"
         >
           Buy
-        </Link>{" "}
+        </Link>
         <Link
           className="hover:bg-secondary hover:text-white  transition duration-300 rounded-lg px-3 py-1"
           href="#about"
         >
           About
-        </Link>{" "}
+        </Link>
         <Link
           className="hover:bg-secondary hover:text-white  transition duration-300 rounded-lg px-3 py-1"
           href="#footer"
