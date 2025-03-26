@@ -26,10 +26,10 @@ const ProductShowcase = () => {
   ];
 
   return (
-    <section className="py-20 px-6 text-center" id="products">
-      <h2 className="text-4xl font-bold text-secondary mb-6">Our Products</h2>
+    <section className="py-12 sm:py-20 px-6 text-center" id="products">
+      <h2 className="text-4xl font-bold text-secondary mb-8">Our Products</h2>
 
-      {/* Scrollable Wrapper for Small Screens */}
+      {/* Mobile Scrollable Container */}
       <div className="md:hidden overflow-x-auto hide-scrollbar">
         <div className="flex space-x-6 px-4">
           {products.map((product) => (
@@ -45,18 +45,18 @@ const ProductShowcase = () => {
                 className="mx-auto rounded-xl"
               />
               <h3 className="text-xl font-bold mt-4">{product.name}</h3>
-              <p className="mt-2">{product.description}</p>
+              <p className="mt-2 text-gray-600">{product.description}</p>
             </div>
           ))}
         </div>
       </div>
 
-      {/* Grid Layout for Large Screens */}
-      <div className="hidden md:grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      {/* Desktop Grid Layout */}
+      <div className="hidden md:grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {products.map((product) => (
           <div
             key={product.id}
-            className="bg-stone-100 text-secondary shadow-lg rounded-2xl p-6 transform hover:scale-105 transition"
+            className="bg-stone-100 text-secondary shadow-lg rounded-2xl p-6 transform transition duration-300 hover:scale-105 hover:shadow-2xl"
           >
             <Image
               src={product.image}
@@ -66,12 +66,12 @@ const ProductShowcase = () => {
               className="mx-auto rounded-xl"
             />
             <h3 className="text-xl font-bold mt-4">{product.name}</h3>
-            <p className="mt-2">{product.description}</p>
+            <p className="mt-2 text-gray-600">{product.description}</p>
           </div>
         ))}
       </div>
 
-      {/* Swipe Hint (Only on Small Screens) */}
+      {/* Swipe Hint for Mobile */}
       <p className="p-2 text-sm text-stone-500 md:hidden">
         Swipe left to see more
       </p>

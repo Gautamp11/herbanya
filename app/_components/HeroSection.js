@@ -2,29 +2,37 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full py-50 sm:h-screen flex flex-col items-center justify-center  text-secondary text-center px-6">
+    <section className="relative w-full min-h-[60vh] flex flex-col items-center justify-center text-secondary text-center px-6 py-16 sm:py-20">
+      {/* Background Overlay */}
+      {/* <div className="absolute inset-0 bg-gradient-to-t from-transparent to-white/80 z-1"></div> */}
+
       {/* Background Image */}
-      <div className="absolute inset-0 z-1">
+      {/* <div className="absolute inset-0 -z-10">
         <Image
-          src="/bg-1.avif"
+          src="/hero.webp"
           alt="Nature background"
           layout="fill"
           objectFit="cover"
-          className="opacity-5"
+          className="opacity-30"
         />
-      </div>
+      </div> */}
 
       {/* Content */}
       <div className="relative z-10">
-        <h1 className="text-4xl sm:text-5xl font-bold mb-4 leading-tight">
+        <h1 className="text-4xl sm:text-5xl font-bold mb-6 leading-tight  ">
           Discover the Purity of Herbs <br />
           with Herbanya
         </h1>
-        <p className="text-lg  max-w-xl mx-auto">
+        <p className="text-lg sm:text-xl max-w-xl mx-auto text-gray-700">
           Sourced from nature, crafted for well-being.
         </p>
-        <button className="mt-6 px-6 py-3 rounded-2xl shadow-md text-white bg-secondary hover:bg-tertiary hover:text-white transition">
-          <a href="#about">Explore More</a>
+        <button className="rounded-2xl shadow-md mt-6">
+          <a
+            className="flex items-center gap-2 px-6 py-3 bg-secondary text-white rounded-2xl shadow-md hover:bg-tertiary transition transform hover:scale-105"
+            href="#products"
+          >
+            Explore More
+          </a>
         </button>
       </div>
     </section>

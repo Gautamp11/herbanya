@@ -9,11 +9,6 @@ button {
   background-color: var(--color-secondary);
 }
 
-button:hover {
-  background-color: var(--color-tertiary);
-  transition: background-color 0.3s ease;
-}
-
 html {
   scroll-behavior: smooth;
 }

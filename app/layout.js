@@ -18,7 +18,7 @@ export const metadata = {
   description:
     "Buy 100% natural and organic herbal products from Herbanya. Discover premium herbs for wellness, skincare, and health.",
   keywords:
-    "Herbal products, Organic herbs, Ayurveda, Natural skincare, Herbal remedies",
+    "Herbal products, Organic herbs, Ayurveda, Natural skincare, Herbal remedies, Herbanya",
   openGraph: {
     title: "Herbanya - Herbal Products",
     description: "Buy 100% natural and organic herbal products from Herbanya.",
@@ -47,7 +47,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       {/* <body className={`${inter.className} bg-white`}>{children}</body> */}
       {/* <body className={`${ebGaramond.className} bg-white`}>{children}</body> */}
-      <body className={`${josefin.className} bg-white`}>{children}</body>
+      {/* <body className={`${josefin.className} bg-white`}>{children}</body> */}
+      <body
+        className={`${josefin.className} bg-gradient-to-b from-white to-stone-100`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
