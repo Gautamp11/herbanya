@@ -1,24 +1,24 @@
 const Footer = () => {
   return (
-    <footer className="bg-tertiary text-white py-8 px-6">
+    <footer className="bg-tertiary text-white py-8 px-6" id="footer">
       <div className="max-w-6xl mx-auto flex flex-col items-center space-y-6 text-center">
         {/* Social Media Links */}
         <div className="flex space-x-6">
           <a
             href="#"
-            className="text-gray-400 hover:text-white transition text-2xl"
+            className="text-stone-400 hover:text-white transition text-2xl"
           >
             <i className="fab fa-facebook"></i>
           </a>
           <a
             href="#"
-            className="text-gray-400 hover:text-white transition text-2xl"
+            className="text-stone-400 hover:text-white transition text-2xl"
           >
             <i className="fab fa-instagram"></i>
           </a>
           <a
             href="#"
-            className="text-gray-400 hover:text-white transition text-2xl"
+            className="text-stone-400 hover:text-white transition text-2xl"
           >
             <i className="fab fa-twitter"></i>
           </a>
@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Text */}
-        <div className="text-gray-400 text-xs">
+        <div className="text-stone-400 text-xs">
           © 2024 Herbanya. All rights reserved.
         </div>
       </div>
