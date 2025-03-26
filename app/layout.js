@@ -27,7 +27,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "brand.png", // Replace with an actual image URL
+        url: "/brand.png", // Replace with an actual image URL
         width: 1200,
         height: 630,
         alt: "Herbanya Herbal Products",
@@ -38,7 +38,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Herbanya - Herbal Products",
     description: "Buy 100% natural and organic herbal products from Herbanya.",
-    images: "brand.png", // Replace with an actual image URL
+    images: "/brand.png", // Replace with an actual image URL
   },
 };
 
