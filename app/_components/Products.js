@@ -45,7 +45,7 @@ const ProductShowcase = () => {
                 className="mx-auto rounded-xl"
               />
               <h3 className="text-xl font-bold mt-4">{product.name}</h3>
-              <p className="mt-2 text-gray-600">{product.description}</p>
+              <p className="mt-2 text-stone-600">{product.description}</p>
             </div>
           ))}
         </div>
@@ -66,7 +66,7 @@ const ProductShowcase = () => {
               className="mx-auto rounded-xl"
             />
             <h3 className="text-xl font-bold mt-4">{product.name}</h3>
-            <p className="mt-2 text-gray-600">{product.description}</p>
+            <p className="mt-2 text-stone-600">{product.description}</p>
           </div>
         ))}
       </div>

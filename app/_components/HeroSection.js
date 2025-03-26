@@ -23,7 +23,7 @@ const HeroSection = () => {
           Discover the Purity of Herbs <br />
           with Herbanya
         </h1>
-        <p className="text-lg sm:text-xl max-w-xl mx-auto text-gray-700">
+        <p className="text-lg sm:text-xl max-w-xl mx-auto text-secondary">
           Sourced from nature, crafted for well-being.
         </p>
         <button className="rounded-2xl shadow-md mt-6">

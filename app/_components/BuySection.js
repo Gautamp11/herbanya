@@ -5,7 +5,7 @@ const BuySection = () => {
   return (
     <section className="py-20 px-6 text-center" id="buy">
       <h2 className="text-4xl font-bold text-secondary mb-6">Available on</h2>
-      <p className="text-lg text-gray-700 max-w-2xl mx-auto mb-8">
+      <p className="text-lg text-stone-700 max-w-2xl mx-auto mb-8">
         You can purchase our products from these trusted e-commerce platforms.
       </p>
 
