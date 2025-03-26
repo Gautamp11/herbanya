@@ -27,7 +27,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://herbanya.in/og-image.jpg", // Replace with an actual image URL
+        url: "brand.png", // Replace with an actual image URL
         width: 1200,
         height: 630,
         alt: "Herbanya Herbal Products",
@@ -38,13 +38,16 @@ export const metadata = {
     card: "summary_large_image",
     title: "Herbanya - Herbal Products",
     description: "Buy 100% natural and organic herbal products from Herbanya.",
-    images: ["https://herbanya.in/og-image.jpg"], // Replace with an actual image URL
+    images: "brand.png", // Replace with an actual image URL
   },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      {/* <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head> */}
       {/* <body className={`${inter.className} bg-white`}>{children}</body> */}
       {/* <body className={`${ebGaramond.className} bg-white`}>{children}</body> */}
       {/* <body className={`${josefin.className} bg-white`}>{children}</body> */}
