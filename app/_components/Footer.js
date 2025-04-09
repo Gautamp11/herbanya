@@ -17,10 +17,10 @@ const Footer = () => {
             <i className="fab fa-instagram"></i>
           </a>
           <a
-            href="#"
+            href="https://x.com/herbanya"
             className="text-stone-400 hover:text-white transition text-2xl"
           >
-            <i className="fab fa-twitter"></i>
+            <i className="fab fa-x-twitter"></i>
           </a>
         </div>
 
