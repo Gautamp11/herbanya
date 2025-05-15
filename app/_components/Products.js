@@ -5,21 +5,23 @@ const ProductShowcase = () => {
     {
       id: 1,
       name: "Reetha Powder",
-      image: "/sample.png",
+      image: "/reetha-image.png",
       description:
         "Pure organic Reetha powder for a natural hair and skin care experience.",
     },
     {
       id: 2,
       name: "Shikakai Powder",
-      image: "/sample.png",
+      image: "/shikakai-image.png",
+
       description:
         "Boost hair health and strengthen roots with natural Shikakai powder.",
     },
     {
       id: 3,
       name: "Amla Powder",
-      image: "/sample.png",
+      image: "/amla-image.png",
+
       description:
         "Nutrient-rich Amla powder to enhance your overall well-being.",
     },

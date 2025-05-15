@@ -1,22 +1,9 @@
 import Image from "next/image";
+import PouchModel from "./PouchModel";
 
 const HeroSection = () => {
   return (
     <section className="relative w-full min-h-[60vh] flex flex-col items-center justify-center text-secondary text-center px-6 py-16 sm:py-20">
-      {/* Background Overlay */}
-      {/* <div className="absolute inset-0 bg-gradient-to-t from-transparent to-white/80 z-1"></div> */}
-
-      {/* Background Image */}
-      {/* <div className="absolute inset-0 -z-10">
-        <Image
-          src="/hero.webp"
-          alt="Nature background"
-          layout="fill"
-          objectFit="cover"
-          className="opacity-30"
-        />
-      </div> */}
-
       {/* Content */}
       <div className="relative z-10">
         <h1 className="text-4xl sm:text-5xl font-bold mb-6 leading-tight  ">
@@ -35,6 +22,8 @@ const HeroSection = () => {
           </a>
         </button>
       </div>
+
+      {/* <PouchModel /> */}
     </section>
   );
 };
