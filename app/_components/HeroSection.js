@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 const HeroSection = () => {
   const images = [
     "/reetha-image-hero.png",
-    "/sample-3.png",
+    // "/sample-3.png",
     "/amla-image-hero.png",
     "/shikakai-image-hero.png",
   ];
