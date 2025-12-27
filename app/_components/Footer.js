@@ -4,19 +4,21 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto flex flex-col items-center space-y-6 text-center">
         {/* Social Media Links */}
         <div className="flex space-x-6">
-          <a
+          {/* <a
             href="#"
             className="text-stone-400 hover:text-white transition text-2xl"
           >
             <i className="fab fa-facebook"></i>
-          </a>
+          </a> */}
           <a
-            href="#"
+            target="_blank"
+            href="https://www.instagram.com/herbanya.in/"
             className="text-stone-400 hover:text-white transition text-2xl"
           >
             <i className="fab fa-instagram"></i>
           </a>
           <a
+            target="_blank"
             href="https://x.com/herbanya"
             className="text-stone-400 hover:text-white transition text-2xl"
           >
