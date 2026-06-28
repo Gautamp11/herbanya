@@ -1,5 +1,6 @@
+import Image from "next/image";
 import { FaAmazon } from "react-icons/fa";
-import { SiFlipkart, SiBigbasket } from "react-icons/si";
+import { SiFlipkart } from "react-icons/si";
 
 const BuySection = () => {
   return (
@@ -22,15 +23,23 @@ const BuySection = () => {
             url: "#",
           },
           {
-            icon: <SiBigbasket className="text-green-600 text-3xl" />,
-            name: "BigBasket",
+            icon: (
+              <Image
+                src="/vecteezy_meesho-transparent-icon_copy.png"
+                alt="Meesho"
+                width={32}
+                height={32}
+                className="rounded-full"
+              />
+            ),
+            name: "Meesho",
             url: "#",
           },
         ].map((platform, index) => (
           <a
             key={index}
             href={platform.url}
-            className="flex items-center gap-3 px-6 py-3 bg-stone-100 text-secondary rounded-2xl shadow-md hover:bg-stone-200  transition transform hover:scale-105"
+            className="flex items-center gap-3 px-6 py-3 bg-stone-100 text-secondary rounded-2xl shadow-md hover:bg-stone-200 transition transform hover:scale-105"
           >
             {platform.icon}
             <span className="text-lg font-semibold">{platform.name}</span>
