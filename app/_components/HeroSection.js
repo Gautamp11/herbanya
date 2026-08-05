@@ -9,6 +9,7 @@ const HeroSection = () => {
     // "/sample-3.png",
     "/amla-image-hero.png",
     "/shikakai-image-hero.png",
+    "/bhringraj-image-hero.png",
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
 
