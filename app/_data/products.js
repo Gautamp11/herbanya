@@ -56,6 +56,25 @@ const products = [
       "Use once or twice a week for natural external care.",
     ],
   },
+  {
+    id: 4,
+    slug: "bhringraj-powder",
+    name: "Bhringraj Powder",
+    image: "/bhringraj-image.png",
+    description:
+      "Bhringraj powder for natural hair care and scalp nourishment with a traditional herbal touch.",
+    benefits: [
+      "Supports healthier-looking hair and scalp",
+      "Helps improve softness and natural shine",
+      "A great addition to regular herbal hair care routines",
+    ],
+    usageSteps: [
+      "Mix 1 to 2 teaspoons of Bhringraj powder with warm water to form a smooth paste.",
+      "Apply it gently to your scalp and hair, focusing on the roots and lengths.",
+      "Leave it on for 5 to 10 minutes before rinsing with lukewarm water.",
+      "Use 1 to 2 times a week for a simple herbal hair care routine.",
+    ],
+  },
 ];
 
 export default products;

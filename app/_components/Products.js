@@ -19,8 +19,8 @@ const ProductShowcase = () => {
                 <Image
                   src={product.image}
                   alt={product.name}
-                  width={200}
-                  height={200}
+                  width={400}
+                  height={400}
                   className="mx-auto rounded-xl"
                 />
                 <h3 className="mt-4 text-xl font-bold">{product.name}</h3>
@@ -56,8 +56,8 @@ const ProductShowcase = () => {
               <Image
                 src={product.image}
                 alt={product.name}
-                width={200}
-                height={200}
+                width={400}
+                height={400}
                 className="mx-auto rounded-xl"
               />
               <h3 className="mt-4 text-xl font-bold">{product.name}</h3>
